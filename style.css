@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.ball {
+    display: inline-block;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    background-color: #7FFFD4;
+    position: relative;
+    box-shadow: 0 0 1rem 0.2rem #a7fade;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.ball:hover {
+    box-shadow: 0 0 1rem 0.5rem #a7fade;
+}
